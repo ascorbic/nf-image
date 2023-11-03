@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+
+[dev]
+command = "node src/index.js"
+targetPort = 3000
+
+[images]
+remote_images = ["https://placekitten.com/*"]

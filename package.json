@@ -1,0 +1,24 @@
+{
+  "name": "@netlify/imageserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "ntlimg": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "h3": "^1.8.2",
+    "ipx": "^2.0.0",
+    "listhen": "^1.5.5",
+    "serve-static": "^1.15.0",
+    "urlpattern-polyfill": "^9.0.0"
+  }
+}
